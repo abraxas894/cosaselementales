@@ -1,0 +1,73 @@
+::root{
+  --blanco: ;
+  --negro: #191919;
+}
+body{
+  color: var(-negro-);
+  background-color: var(--blanco);
+  width: 60%;
+  margin: 0% 20%;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #191919;
+}
+nav a{
+  font: normal 2em/1em '', serif;
+  color: #ffffff;
+  padding: 3% 1%;
+}
+nav a:hover{
+  color: #191919;
+  background-color: #ffffff;
+}
+h1{
+  font: normal 5em/1em 'Century', serif;
+}
+p{
+  font: normal 1.5em/1.3em 'Garamond', serif;
+}
+table{
+  width: 100%;
+  margin: 0%;
+}
+tr, th, td{
+  font: normal 1.2em/1.3em '', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+tr{
+  width: 100%;
+}
+th{
+  width: 100%;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+}
+td{
+  width: 33.33%;
+  text-align: center;
+}
+main.principalCuadros{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.principalCuadros figure{
+  width: 40%;
+}
+figure img{
+  width: 100%;
+}
+figure figcaption{
+  font: normal 1.2em/1em '', serif;
+}
+iframe{
+  width: 50%;
+  aspect-ratio: 8/5;
+}
